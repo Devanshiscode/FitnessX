@@ -1,0 +1,118 @@
+/* General body */
+body { 
+    margin:0;
+    font-family: Arial; 
+    background:#f5f0e6; 
+    color:#4b2e2e;
+}
+
+/* Header */
+header { 
+    display:flex; 
+    justify-content:space-between; 
+    padding:15px 40px; 
+    background:#5c3a21; 
+    color:white; position:sticky; 
+    top:0; 
+    z-index:10 ;
+}
+header a { 
+    color:white; 
+    margin:0 10px; 
+    text-decoration:none; }
+
+/* Hero Section */
+.hero { 
+    height:90vh; 
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center; 
+    align-items:center; 
+    text-align:center; 
+    color:white; 
+    position: relative; }
+.hero-img {
+     width:100%; 
+     height:100%; 
+     object-fit:cover; 
+     position:absolute; 
+     top:0; left:0; 
+     z-index:-1; }
+.hero-text { 
+    z-index:1; 
+    padding:0 20px; }
+.btn { 
+    background:#d2b48c; 
+    padding:10px 20px; 
+    color:#4b2e2e; 
+    text-decoration:none; 
+    font-weight:bold; 
+    border-radius:5px; 
+    margin-top:15px; 
+    display:inline-block; }
+
+/* Sections */
+.section { 
+    padding:60px 40px; 
+    text-align:center; }
+.cards { 
+    display:flex; 
+    gap:20px; 
+    justify-content:center; 
+    flex-wrap:wrap; }
+
+/* Program Cards */
+.card { 
+    background:white; 
+    width:280px; 
+    border-radius:10px; 
+    overflow:hidden; 
+    box-shadow:0 4px 10px rgba(0,0,0,0.2); 
+    margin:10px; 
+    transition:0.3s; }
+.card:hover { 
+    transform:scale(1.05); }
+.card img { 
+    width:100%; 
+    height:200px; 
+    object-fit:cover; }
+
+/* Trainer Cards */
+.trainer-card img { 
+    width:100%; 
+    height:280px; 
+    object-fit:cover; }
+
+/* Equipment Page */
+#equipment img { 
+    width:80%; 
+    max-width:800px; 
+    height:auto; 
+    display:block; 
+    margin:20px auto; }
+
+/* Diet Page */
+ul { 
+    list-style:none; 
+    padding:0; }
+ul li { 
+    padding:10px 0; }
+
+/* Forms */
+input, textarea { 
+    width:60%; 
+    padding:10px; 
+    margin:10px 0; }
+button { 
+    background:#5c3a21; 
+    color:white; 
+    border:none; 
+    padding:10px 20px; 
+    cursor:pointer; }
+
+/* Footer */
+footer { 
+    background:#5c3a21; 
+    color:white; 
+    text-align:center; 
+    padding:15px; }

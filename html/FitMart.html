@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitnessX Equipment Store</title>
+    <link rel="stylesheet" href="../css/FitMart.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Fitness<span>X</span></div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="trainers.html">Trainers</a></li>
+        <li><a href="FitMart.html" class="active">FitMart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="shop-container">
+      <!-- LEFT CATEGORY SIDEBAR -->
+      <aside class="sidebar">
+        <h2>Categories</h2>
+        <ul>
+          <li>🏋️ Dumbbells</li>
+          <li>💪 Barbells</li>
+          <li>🧘 Yoga Equipment</li>
+          <li>🏃 Cardio Machines</li>
+          <li>🎯 Resistance Bands</li>
+          <li>🪑 Benches</li>
+        </ul>
+      </aside>
+
+      <!-- RIGHT PRODUCT AREA -->
+      <section class="products">
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1594737625785-c1f34eaecc49"
+          />
+          <h3>Adjustable Dumbbells</h3>
+          <p>Perfect for home strength training.</p>
+          <div class="price">₹4,999</div>
+          <button onclick="addToCart()">Add To Bag</button>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1583454110551-21b26b9b49c2"
+          />
+          <h3>Olympic Barbell</h3>
+          <p>Heavy-duty bar for serious lifters.</p>
+          <div class="price">₹6,500</div>
+          <button onclick="addToCart()">Add To Bag</button>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1599058917212-d750089bc07b"
+          />
+          <h3>Yoga Mat Premium</h3>
+          <p>Non-slip, extra comfort for yoga.</p>
+          <div class="price">₹1,200</div>
+          <button onclick="addToCart()">Add To Bag</button>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1579751626657-72bc17010498"
+          />
+          <h3>Resistance Bands Set</h3>
+          <p>Great for strength & rehab workouts.</p>
+          <div class="price">₹899</div>
+          <button onclick="addToCart()">Add To Bag</button>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e"
+          />
+          <h3>Workout Bench</h3>
+          <p>Adjustable bench for full-body training.</p>
+          <div class="price">₹5,200</div>
+          <button onclick="addToCart()">Add To Bag</button>
+        </div>
+      </section>
+    </div>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
